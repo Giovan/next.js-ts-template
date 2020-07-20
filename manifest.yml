@@ -1,0 +1,10 @@
+---
+applications:
+  - name: nextjs-template-qa
+    random-route: true
+    buildpack: nodejs_buildpack
+    instances: 2
+    memory: 256M
+    disk_quota: 512M
+    command: yarn start
+    timeout: 600

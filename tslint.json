@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": "tslint:recommended",
+  "rules": {
+    "quotemark": [true, "double", "double-jsx"],
+    "max-line-length": [true, 120],
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false,
+    "no-duplicate-imports": true,
+    "no-unsafe-any": true,
+    "no-this-assignment": true,
+    "no-null-keyword": false,
+    "no-for-in-array": true,
+    "no-var-requires": false,
+    "interface-name": false,
+    "semicolon": true,
+    "trailing-comma": true,
+    "strict-boolean-expressions": true,
+    "strict-type-predicates": true,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "await-promise": true,
+    "only-arrow-functions": true
+  }
+}
